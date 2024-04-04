@@ -7,12 +7,12 @@
   - [ ] Dark Mode Toggle Button
   - [ ] Filter Button for the completed status
 - Bucket Lists
-  -  [ ] Bucket List Check Box
+  -  [x] Bucket List Check Box
   -  [x] Bucket List Content
-  -  [ ] Bucket List Delete Button
+  -  [x] Bucket List Delete Button
 - Add Bucket List 
-  - [ ] Input text Box
-  - [ ] Add button
+  - [x] Input text Box
+  - [x] Add button
   
 ### Project Info
 - Personal project
