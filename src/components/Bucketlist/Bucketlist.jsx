@@ -6,6 +6,9 @@ export default function Bucketlist() {
   const [lists, setLists] = useState([{id : 123, text: 'travel to mars', status: 'not-yet'}]);
 
   const handleAdd = (list) => setLists([...lists, list])
+
+  const handleChange = (updated) => setLists(lists.map((list)=>(list.id === updated.id ? updated : list)));
+  const handleDelete = (deleted) => setLists(lists.filter((list) => (list.id !== deleted.id)));
   return (
     <>
       <ul>
@@ -13,6 +16,8 @@ export default function Bucketlist() {
             <List 
             key={list.id}
             list={list}
+            onChange={handleChange}
+            onDelete={handleDelete}
             />
         ))}
       </ul>
