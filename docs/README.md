@@ -8,7 +8,7 @@
   - [ ] Filter Button for the completed status
 - Bucket Lists
   -  [ ] Bucket List Check Box
-  -  [ ] Bucket List Content
+  -  [x] Bucket List Content
   -  [ ] Bucket List Delete Button
 - Add Bucket List 
   - [ ] Input text Box
