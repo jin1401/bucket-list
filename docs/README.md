@@ -5,7 +5,7 @@
 ### Features
 - Header 
   - [ ] Dark Mode Toggle Button
-  - [ ] Filter Button for the completed status
+  - [x] Filter Button for the completed status
 - Bucket Lists
   -  [x] Bucket List Check Box
   -  [x] Bucket List Content
