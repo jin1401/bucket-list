@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import List from '../List/List';
 import AddBucketList from '../AddBucketList/AddBucketList';
+import styles from './Bucketlist.module.css'
 
 export default function Bucketlist({filter}) {
   const [lists, setLists] = useState([{id : 123, text: 'travel to mars', status: 'not-yet'}]);
@@ -11,8 +12,8 @@ export default function Bucketlist({filter}) {
   const handleDelete = (deleted) => setLists(lists.filter((list) => (list.id !== deleted.id)));
   const filtered = getFilteredItems(lists, filter);
   return (
-    <>
-      <ul>
+    <section className={styles.container}>
+      <ul className={styles.list}>
         {filtered.map((list)=>(
             <List 
             key={list.id}
@@ -23,7 +24,7 @@ export default function Bucketlist({filter}) {
         ))}
       </ul>
       <AddBucketList onAdd={handleAdd} />
-    </>
+    </section>
   );
 }
 
