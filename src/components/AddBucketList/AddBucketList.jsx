@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import styles from './AddBucketList.module.css'
 
 export default function AddBucketList({onAdd}) {
   const [bucketList, setBucketList] = useState('');
@@ -11,9 +12,9 @@ export default function AddBucketList({onAdd}) {
     setBucketList('');
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <input type='text' placeholder='Add bucket-list' value={bucketList} onChange={handleChange}/>
-      <button>Add</button>
+    <form onSubmit={handleSubmit} className={styles.form}>
+      <input className={styles.input} type='text' placeholder='Add bucket-list' value={bucketList} onChange={handleChange}/>
+      <button className={styles.button}>Add</button>
     </form>
   );
 }
