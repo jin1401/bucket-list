@@ -1,7 +1,9 @@
 :root {
+    --color-outer-bg: #dcd4d4;
     --color-bg: #d1bb9e;
     --color-bg-dark: #a79277;
     --color-accent: #9eb4d1;
+    --color-grey: #65656b;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     width: 100vw;
     height: 100vh;
-    background: var(--color-bg-dark);
+    background: var(--color-outer-bg);
     display: flex;
     justify-content: center;
     align-items: center;
