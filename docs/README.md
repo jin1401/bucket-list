@@ -4,7 +4,7 @@
 
 ### Features
 - Header 
-  - [ ] Dark Mode Toggle Button
+  - [x] Dark Mode Toggle Button
   - [x] Filter Button for the completed status
 - Bucket Lists
   -  [x] Bucket List Check Box
@@ -16,4 +16,4 @@
   
 ### Project Info
 - Personal project
-- Duration : April 3, 2024 ~ ing
+- Duration : April 3, 2024 ~ April 7, 2024

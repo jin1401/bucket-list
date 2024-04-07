@@ -3,6 +3,7 @@ import "./App.css";
 import Bucketlist from "./components/Bucketlist/Bucketlist";
 import Header from "./components/Header/Header";
 import DarkmodeProvider from "./Context/DarkmodeProvider";
+import Board from "./components/Board/Board";
 
 const filters = ["all", "accomplished", "not-yet"];
 function App() {
