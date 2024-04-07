@@ -2,10 +2,18 @@
     --color-outer-bg: #dcd4d4;
     --color-bg: #d1bb9e;
     --color-bg-dark: #a79277;
-    --color-accent: #9eb4d1;
+    --color-accent: #ffffff;
     --color-grey: #65656b;
     --color-white: #f7f7f7;
     --color-text: #161515;
+}
+
+html.dark {
+    --color-bg: #0a0606;
+    --color-bg-dark: #000000;
+    --color-grey: #1c1c1c;
+    --color-text: #ffffff;
+    --color-accent: #ffffff;
 }
 
 body {

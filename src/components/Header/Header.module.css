@@ -15,10 +15,10 @@
     font-size: 1.4rem;
     margin: 0.3rem;
     text-transform: capitalize;
-    backgound-color: transparent;
-    color: var(--color-bg-dark);
-    opacity: 0.8;
+    color: var(--color-accent);
+    opacity: 0.9;
     font-weight: bold;
+    background-color: transparent;
 }
 
 .filter:hover,
@@ -30,5 +30,18 @@
     content: "";
     display: block;
     margin-top: 0.1rem;
-    border: 1px solid var(--color-bg-dark);
+    border: 1px solid var(--color-accent);
+    opacity: 1;
+}
+
+.toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-white);
+    transition: all 150ms ease-out;
+}
+
+.toggle:hover {
+    transform: scale(1.1);
 }
